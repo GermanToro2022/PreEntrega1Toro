@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background: #16DC7C;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +44,18 @@
     transform: rotate(360deg);
   }
 }
+
+.NavBar {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #014522;
+}
+
+.TextoNav {
+  color: #16DC7C;
+  text-decoration-line: none;
+}
+
+
